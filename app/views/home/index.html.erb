@@ -18,6 +18,7 @@
 			<li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
 			<li> <a href="#blog" class="smoothScroll"> Blog</a></li>
 			<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
+          </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -29,8 +30,8 @@
 	    <div id="headerwrap" id="home" name="home">
 			<header class="clearfix">
 	  		 		<h1><span class="icon icon-shield"></span></h1>
-	  		 		<p>A Bootstrap 3 One Page Theme.</p>
-	  		 		<p>Exclusive for BlackTie.co.</p>
+	  		 		<p>Firestorm Systems</p>
+	  		 		<p>We bring your idea to light.</p>
 	  		</header>	    
 	    </div><!-- /headerwrap -->
 
@@ -105,7 +106,7 @@
 				<hr>
 				<br>
 				<div class="col-lg-offset-2 col-lg-8">
-					<img class="img-responsive" src="assets/img/iphone.png" alt="">
+          <%= image_tag "iphone.png", class: 'img-responsive' %>
 				</div><!-- col -->
 			</div><!-- row -->
 		</div><!-- container -->
@@ -129,7 +130,7 @@
 				<br>
 				<br>
 				<div class="col-lg-3 centered">
-					<img class="img img-circle" src="assets/img/team/team01.jpg" height="120px" width="120px" alt="">
+          <%= image_tag "team/team01.jpg", class: 'img img-circle', style: "height: 120px; width: 120px;" %>
 					<br>
 					<h4><b>Mike Arney</b></h4>
 					<a href="#" class="icon icon-twitter"></a>
@@ -139,7 +140,7 @@
 				</div><!-- col-lg-3 -->
 				
 				<div class="col-lg-3 centered">
-					<img class="img img-circle" src="assets/img/team/team02.jpg" height="120px" width="120px" alt="">
+          <%= image_tag "team/team02.jpg", class: 'img img-circle', style: "height: 120px; width: 120px;" %>
 					<br>
 					<h4><b>Tim Davies</b></h4>
 					<a href="#" class="icon icon-twitter"></a>
@@ -149,7 +150,7 @@
 				</div><!-- col-lg-3 -->
 				
 				<div class="col-lg-3 centered">
-					<img class="img img-circle" src="assets/img/team/team03.jpg" height="120px" width="120px" alt="">
+          <%= image_tag "team/team03.jpg", class: 'img img-circle', style: "height: 120px; width: 120px;" %>
 					<br>
 					<h4><b>Michele Lampa</b></h4>
 					<a href="#" class="icon icon-twitter"></a>
@@ -159,7 +160,7 @@
 				</div><!-- col-lg-3 -->
 				
 				<div class="col-lg-3 centered">
-					<img class="img img-circle" src="assets/img/team/team04.jpg" height="120px" width="120px" alt="">
+          <%= image_tag "team/team04.jpg", class: 'img img-circle', style: "height: 120px; width: 120px;" %>
 					<br>
 					<h4><b>Jaye Smith</b></h4>
 					<a href="#" class="icon icon-twitter"></a>
@@ -176,7 +177,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 centered">
-						<img class="img-responsive" src="assets/img/macbook.png" align="">
+            <%= image_tag "macbook.png", class: 'img-responsive', style: 'align: ;' %>
 					</div>
 					<div class="col-lg-4">
 						<h2>We Are Hiring!</h2>
@@ -215,7 +216,7 @@
 				<div class="col-md-4 ">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt="">
+            <%= image_tag "portfolio/folio01.jpg", class: 'img-responsive' %>
 							<figcaption>
 								<h5>DASHBOARD</h5>
 								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
@@ -236,7 +237,7 @@
 						          <h4 class="modal-title">Project Title</h4>
 						        </div>
 						        <div class="modal-body">
-						          <p><img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt=""></p>
+						          <p><%= image_tag "portfolio/folio01.jpg", class: 'img-responsive' %></p>
 						          <p>This project was crafted for Some Name corp. Detail here a little about your job requirements and the tools used. Tell about the challenges faced and what you and your team did to solve it.</p>
 						          <p><b><a href="#">Visit Site</a></b></p>
 						        </div>
@@ -252,7 +253,7 @@
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio02.jpg" alt="">
+              <%= image_tag "portfolio/folio02.jpg", class: 'img-responsive' %>
 							<figcaption>
 								<h5>UI DESIGN</h5>
 								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
@@ -265,7 +266,7 @@
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio03.jpg" alt="">
+              <%= image_tag "portfolio/folio03.jpg", class: 'img-responsive' %>
 							<figcaption>
 								<h5>ANDROID PAGE</h5>
 								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
@@ -280,7 +281,7 @@
 				<div class="col-md-4 ">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio04.jpg" alt="">
+              <%= image_tag "portfolio/folio04.jpg", class: 'img-responsive' %>
 							<figcaption>
 								<h5>PROFILE</h5>
 								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
@@ -293,7 +294,7 @@
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio05.jpg" alt="">
+              <%= image_tag "portfolio/folio05.jpg", class: 'img-responsive' %>
 							<figcaption>
 								<h5>TWITTER STATUS</h5>
 								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
@@ -306,7 +307,7 @@
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio06.jpg" alt="">
+              <%= image_tag "portfolio/folio06.jpg", class: 'img-responsive' %>
 							<figcaption>
 								<h5>PHONE MOCKUP</h5>
 								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
@@ -344,7 +345,7 @@
 				<div class="col-lg-6 blog-bg">
 					<div class="col-lg-4 centered">
 					<br>
-						<p><img class="img img-circle" src="assets/img/team/team04.jpg" width="60px" height="60px"></p>
+						<p><%= image_tag "team/team04.jpg", class: 'img img-circle', style: 'width: 60px; height: 60px;' %></p>
 						<h4>Jaye Smith</h4>
 						<h5>Published Aug 30.</h5>
 					</div>
@@ -360,7 +361,7 @@
 				<div class="col-lg-6 blog-bg">
 					<div class="col-lg-4 centered">
 					<br>
-						<p><img class="img img-circle" src="assets/img/team/team03.jpg" width="60px" height="60px"></p>
+						<p><%= image_tag "team/team03.jpg", class: 'img img-circle', style: 'width: 60px; height: 60px;' %></p>
 						<h4>Michele Lampa</h4>
 						<h5>Published Aug 28.</h5>
 					</div>
@@ -410,7 +411,7 @@
 				<div class="col-lg-4">
 					<h3>Newsletter</h3>
 					<p>Register to our newsletter and be updated with the latests information regarding our services, offers and much more.</p>
-					<p>
+          <p>
 						<form class="form-horizontal" role="form">
 						  <div class="form-group">
 						    <label for="inputEmail1" class="col-lg-4 control-label"></label>
@@ -444,6 +445,6 @@
 
 		<div id="footerwrap">
 			<div class="container">
-				<h4>Created by <a href="http://blacktie.co">BlackTie.co</a> - Copyright 2014</h4>
+				<h4>Created by <a href="http://firestormsystems.com">Firestorm Systems</a> - Copyright 2014</h4>
 			</div>
 		</div>
