@@ -37,9 +37,12 @@ group :development do
     gem 'reek'
     gem 'rack-mini-profiler'
     gem 'brakeman', :require => false
-    gem 'rspec-rails' # Run rake tests in development
+    gem 'rspec-rails' # Run rake tests in developmentgem 'sqlite3'
+end
+
+group :development :test do
   # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+  gem 'sqlite3'
 end
 
 group :test do
@@ -47,8 +50,6 @@ group :test do
   gem 'capybara'
   gem 'libnotify'
   gem 'factory_girl_rails'
-  # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 end
 
 # Use jquery as the JavaScript library
