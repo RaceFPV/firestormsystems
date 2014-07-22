@@ -587,32 +587,6 @@ a:after {
 }
 
 
-/* ==========================================================================
-   Blog Section
-   ========================================================================== */
-
-.blog-bg {
-	background: #2b2b2b;
-	padding-right: 0px;
-	padding-left: 0px;
-	
-}
-
-.blog-bg h4 {
-	color: #dadada;
-	padding-top: 0px;
-}
-
-.blog-bg h5 {
-	color: #dadada;
-	font-size: 11px;
-}
-
-.blog-content {
-	padding-top: 10px;
-	background: #f2f2f2;
-}
-
 
 /* ==========================================================================
    MEDIA QUERIES
