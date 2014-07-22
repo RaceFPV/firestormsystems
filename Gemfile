@@ -7,6 +7,7 @@ gem 'rails', '4.0.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 gem 'bootstrap-sass', '~> 3.0.2.0' # Twitter Bootstrap front-end framework
+gem 'activesupport'
 
 gem 'ruby-progressbar' #nice progressbar for seeding process
 gem "gritter" #for better flash messages
